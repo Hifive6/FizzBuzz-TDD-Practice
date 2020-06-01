@@ -15,5 +15,7 @@ public class FizzBuzzTest {
     public void shouldProcessInput(){
         FizzBuzz fizzBuzz = new FizzBuzz();
         assertEquals("1", fizzBuzz.processNumber(1));
+        assertEquals("2", fizzBuzz.processNumber(2));
+        assertEquals("Fizz", fizzBuzz.processNumber(3));
     }
 }
